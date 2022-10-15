@@ -86,7 +86,7 @@ body {
 .icons {
     display: flex;
     justify-content: space-between;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .slider {
@@ -210,3 +210,59 @@ body {
     line-height: 79px;
     letter-spacing: 2.88px;
   }
+
+  .form-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    background-color: #000;
+    padding: 4%;
+    border-radius: 15px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .form-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    width: 50%;
+  }
+
+  .input {
+    width: 100%;
+    background: none;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.send {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    background: #118DA8;
+    border-radius: 6px;
+    width: 20%;
+    border: none;
+    padding: 1%;
+
+}
+
+.send:hover {
+    cursor: pointer;
+}
